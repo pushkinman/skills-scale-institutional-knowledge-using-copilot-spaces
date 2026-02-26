@@ -27,7 +27,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: *(consider: Developer, Product Manager, Project Manager, Release Manager, Technical Writer, Onboarding/Training Lead, Support/SRE Lead — include only roles relevant to this project)*
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead

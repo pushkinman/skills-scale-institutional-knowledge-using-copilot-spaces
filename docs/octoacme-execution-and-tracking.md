@@ -38,3 +38,5 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Documentation ownership assigned to Technical Writer (or designated team member)
+- [ ] Support/SRE Lead consulted on operational readiness (monitoring, on-call, runbooks) before release milestones
