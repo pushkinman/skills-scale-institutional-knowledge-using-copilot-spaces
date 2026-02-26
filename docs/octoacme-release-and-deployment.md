@@ -8,12 +8,22 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Minor: incremental features and improvements
 - Major: significant functionality or breaking changes
 
+## Release Roles
+- **Release Manager**: Owns the release schedule and go/no-go decision. Coordinates cutover logistics, stakeholder communications, and post-release reviews.
+- **Support/SRE Lead**: Validates operational readiness (monitoring, on-call, runbooks) and is the first point of contact during post-deploy incidents.
+
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
 - Passing CI and security scans
-- Release notes drafted
-- Rollback / mitigation plan documented
+- Release notes drafted (coordinated with Technical Writer)
+- Rollback / mitigation plan documented and reviewed with Support/SRE Lead
 - Smoke tests prepared
+
+## Release Coordination Checklist
+- [ ] Release Manager has confirmed the release window with stakeholders
+- [ ] Support/SRE Lead has reviewed the deployment plan and runbooks
+- [ ] Release notes and stakeholder communications drafted and approved
+- [ ] On-call rotation confirmed for the deployment window
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
@@ -21,7 +31,7 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - [ ] Deploy to staging and run smoke tests
 - [ ] Deploy to production (automated pipeline preferred)
 - [ ] Run post-deploy verifications
-- [ ] Announce release to stakeholders and support
+- [ ] Announce release to stakeholders and support (Release Manager)
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
